@@ -11,6 +11,6 @@ Open your email for the edit and update links (which have validation tokens)
 
 If you have an error with the email, simply upload the project and retry from a live server
 
-see demo here
+see <a href="http://www.sinnovallc.com/kepha/phpangular/" target="_blank">demo here!</a>
 
-Cheers!
+Cheers.
