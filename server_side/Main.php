@@ -77,7 +77,7 @@ class Main{
     //function for sending email
     public function send_user_email($to,$subject,$message){
 
-        $headers = 'From: Animus Gmbh' . "\r\n" .
+        $headers = 'From: no-reply@angularphp.info' . "\r\n" .
             'Reply-To: '."no-reply@animus.com". "\r\n" .
             'X-Mailer: PHP/' . phpversion();
 
