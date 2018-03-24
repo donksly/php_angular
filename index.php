@@ -126,7 +126,9 @@
                         'postal_code': $scope.postal_code,
                         'town': $scope.town,
                         'country': $scope.country,
-                        'email': $scope.email
+                        'email': $scope.email,
+                        'btnName': $scope.btnName,
+                        'id': $scope.id
                     }
                 ).then(function (data) {
                     //on successful post
