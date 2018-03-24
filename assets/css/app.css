@@ -1,0 +1,93 @@
+body, label{
+    font-size: 13px;
+}
+body, #move_in_date{
+    font-size: 12px;
+    color: grey;
+}
+
+body input{
+    font-size: 12px;
+}
+body table{
+    font-size: 14px;
+}
+
+body input{
+    max-width: 50%;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+    height: 45px;
+    margin-bottom: 18px;
+}
+
+body img{
+    max-width: 80%;
+}
+
+.head_bar{
+    max-height: 5%;
+    background: transparent;
+}
+.head_bar img{
+    width: 1200px;
+
+}
+
+#home_head_area {
+    background: url(../images/apartments_ii.jpg) no-repeat 50% 100%;
+    background-size: cover;
+    color: #fff;
+    background-color: #374859;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+#submit_button{
+    background-color: #374859 !important;
+    color: #fff;
+}
+
+#submit_button:hover{
+    background-color: #fff !important;
+    border: 2px solid #374859 !important;
+    color: #374859 !important;
+}
+
+#invalid_forms_message, #apartment_deleted_message{
+    display: none;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height:47px;
+    width: 100%;
+    background: white;
+    border-top: 2px solid #5578a7;
+}
+
+footer div{
+    font-size: 12px;
+    color: darkgrey;
+    margin-right: 2.7%;
+    margin-top: 1%;
+    font-weight: bold;
+    text-shadow: 2px 2px whitesmoke;
+}
+footer div a{
+    color: darkgrey;
+    text-shadow: 2px 2px whitesmoke;
+}
+footer div a:hover,footer div a:after{
+    text-decoration: none;
+    color: darkgrey;
+    text-shadow: 2px 2px whitesmoke;
+}
+
