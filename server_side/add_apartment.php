@@ -22,7 +22,7 @@ if((count((array)$info))>0){
 
     //global return variable
     $return_me = "";
-    if($button_name = "Save Apartment"){
+    if($button_name == "Save Apartment"){
 
         //add apartments to database
         $insert = "INSERT INTO `apartments`(`name`,`move_in_date`,`street`,`postal_code`,`town`,`country`,`email`,`created_on`)
@@ -46,9 +46,8 @@ if((count((array)$info))>0){
         }else{
             echo $return_me = "Error: failure in adding apartment please contact admin!";
         }
-    }
-    //update apartment from admin
-    if($button_name = "Update Details"){
+    }else if($button_name = "Update Details"){
+        //update apartment from admin
         $id = $info->id;
         $update = "UPDATE `apartments` SET `name`='$apartment_name',`move_in_date`='$move_in_date',`street`='$street',
         `postal_code`='$postal_code',`town`='$town',`country`='$country',`email`='$email',`updated_on`='$time' WHERE `id`='$id'";
